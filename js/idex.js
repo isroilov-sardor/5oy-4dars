@@ -246,7 +246,29 @@
 // console.log(res);
 
 // 3 misol
-// buni qilolmadim
+// function strReplace(arg) {
+//     let res = arg;
+//     if (res.includes("0")) {
+//         res = res.replaceAll("0", "*");
+//     }
+//     if (res.includes("1")) {
+//         res = res.replaceAll("1", "*");
+//     }
+//     if (res.includes("2")) {
+//         res = res.replaceAll("2", "*");
+//     }
+//     if (res.includes("3")) {
+//         res = res.replaceAll("3", "*");
+//     }
+//     if (res.includes("4")) {
+//         res = res.replaceAll("4", "*");
+//     }
+//     if (res.includes("5")) {
+//         res = res.replaceAll("5", "*");
+//     }
+//     return res;
+// }
+// console.log(strReplace("sa0lo2m1"));
 
 // ### 12. `split`
 // 1 misol
@@ -303,7 +325,17 @@
 // console.log(res);
 
 // 2 misol
-// qila olmadim
+// let str = "sa1lom";
+// function filtnumber(arg) {
+//     for (let i = 0; i < arg.length; i++) {
+//         if (Number(arg[i])) {
+//             return true + " majud son";
+//         }
+//     }
+//     return false + " son mavjud emas";
+// }
+// let res = filtnumber(str);
+// console.log(res);
 
-// 3 misol
+// 3misol
 // qila olmadim va tushunmadim
