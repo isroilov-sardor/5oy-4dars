@@ -1,4 +1,68 @@
-// ### 1. `charAt`
+// Symbol ga oid.
+// let id = Symbol();
+// let user = { naem: "Sarodr", age: 16, [id]: 123 };
+// let keys = Object.keys(user);
+// console.log(keys);
+// let property = Object.getOwnPropertySymbols(user);
+// console.log(property);
+
+// Rekursiv funksiyaga oid
+// 1 misol
+// function plus(arg) {
+//     let res = 0;
+//     if (arg < 0) {
+//         return 0;
+//     }
+//     return arg + plus(arg - 1);
+// }
+// console.log(plus(10));
+
+// 2 misol
+// function facto(arg) {
+//     if (arg == 0 || arg == 1) {
+//         return 1;
+//     }
+//     return arg * facto(arg - 1);
+// }
+// console.log(facto(4));
+
+// 3 misol
+// function fibonaci(arg) {
+//     if (arg < 2) {
+//         return arg;
+//     } else {
+//         return fibonaci(arg - 1) + fibonaci(arg - 2);
+//     }
+// }
+// console.log(fibonaci(10));
+
+// Class ga oid.
+// 1 misol
+// class Car {
+//     constructor(name, age, color) {
+//         this.name = name;
+//         this.age = age;
+//         this.color = color;
+//     }
+// }
+// let Mercedes = new Car("Bmw", 2023, "black");
+// console.log(Mercedes);
+
+// 2 misol
+// class Rectangle {
+//     constructor(height, weight) {
+//         this.height = height;
+//         this.weight = weight;
+//     }
+//     getArea() {
+//         return this.height * this.weight;
+//     }
+// }
+// let arr = new Rectangle(4, 5);
+// console.log(arr.getArea());
+
+// String metodlariga oid.
+// ### 1. CharAt
 // 1 misol
 // let str = "salom ustoz";
 // let chartedstr = str.charAt(4);
